@@ -1,0 +1,49 @@
+* {
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  padding: 5px;
+}
+
+button {
+  padding: 5px 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+}
+
+footer a {
+  margin: 0 10px;
+}
+
+footer img {
+  width: 30px;
+  height: auto;
+}
+
+#output {
+  margin-top: 20px;
+  font-weight: bold;
+}
