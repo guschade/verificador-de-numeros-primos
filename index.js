@@ -20,8 +20,10 @@ function checkPrime() {
   let output = document.getElementById("output");
   if (result) {
     output.textContent = number + " é um número primo.";
+    document.body.style.backgroundColor = "green"; // Define a cor de fundo como verde para números primos
   } else {
     output.textContent = number + " não é um número primo.";
+    document.body.style.backgroundColor = "red"; // Define a cor de fundo como vermelho para números não primos
   }
 }
 
